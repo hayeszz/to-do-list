@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Comic Neue', cursive;
+  background-image: url('table.jpg');
+  background-position: center;
+  background-size: contain;
+}
+.info{
+  position: absolute;
+  width: 15vw;
+  height: fit-content;
+  top: 3vh;
+  left: 3vw;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.page{
+  width: 40vw;
+  min-height: 75vh;
+  height: fit-content;
+  margin: 5vh auto;
+  box-shadow: 0px 0px 5px black;
+  padding-left: 1vw;
+  padding-top: 0.5vh;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+h1{
+  margin-bottom: 2vh;
+}
+
+ul{
+  margin-top: 1.5vh;
+  margin-left: 0px;
+  margin-right: auto;
+  width: 100%;
+  width: 20vw
+}
+
+li{
+  list-style: georgian;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  cursor: pointer;
+  padding-top: 0.5vh;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.close{
+  padding: 5px 5px;
+  display: inline;
+  text-align: left;
+  align-items: center;
+  border-radius: 100%;
+  font-size: 0.5em;
+  align-self: center;
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.close:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+input{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid black;
+  width: 40%;
+  background-color: transparent;
+}
+
+.add{
+  display: inline;
+  background-color: transparent;
+  border: 2px;
+  box-shadow: transparent;
+  padding: 2vw 1vh;
+}
+
+svg{
+  width: 100%;
+  height: 100%;
+}
+
+svg:hover{
+  fill: rgba(0, 255, 0, 0.4);
+}
+
+input:focus{
+  border-bottom: 2px solid green
+}
