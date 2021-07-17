@@ -1,2 +1,2 @@
 # to-do-list
-simple to do list ting ya know
+https://cranky-turing-bdfc5f.netlify.app/
